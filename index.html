@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional tech portfolio of Khushi Yadav - B.Tech ECE student specializing in Android development, Embedded Systems, and IoT.">
+    <meta name="keywords"
+        content="Khushi Yadav, ECE, Electronics, Android Developer, Kotlin, Embedded Systems, ESP32, Portfolio, KIET Ghaziabad">
+    <meta name="author" content="Khushi Yadav">
+    <title>Khushi.Y | Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                KY<span class="cyan-text">.</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-right">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="mobile-cta-item"><a href="#contact" class="btn btn-primary mobile-menu-cta">Get In
+                            Touch</a></li>
+                </ul>
+                <a href="#contact" class="nav-cta-btn">Get In Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-info reveal">
+                    <p class="hero-pretitle">Hello, I'm</p>
+                    <h1 class="hero-title">Khushi <span class="cyan-text">Yadav</span></h1>
+                    <p class="hero-subtitle">Electronics & Communication Engineering Student</p>
+                    <p class="hero-roles">Android Developer | Embedded Systems Enthusiast | Problem Solver</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">
+                            <span class="material-icons">email</span> Contact Me
+                        </a>
+                        <a href="Resume.pdf" id="downloadResume" class="btn btn-outline" target="_blank">
+                            <span class="material-icons">file_download</span> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/khushiy337" target="_blank" class="social-box" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/khushi-yadav-7a44313a6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" class="social-box" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/khushiy3108/" target="_blank" class="social-box"
+                            title="LeetCode">
+                            <i class="fas fa-terminal"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrap reveal">
+                    <div class="profile-glow"></div>
+                    <img src="Profile.jpeg" alt="Khushi Yadav" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape s1"></div>
+            <div class="shape s2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">About <span class="cyan-text">Me</span></h2>
+        </div>
+        <div class="about-content-v2 reveal">
+            <p class="about-description">
+                Electronics and Communication Engineering undergraduate with hands-on experience in Android development,
+                embedded systems, and software fundamentals. Possesses strong problem-solving skills with practical
+                exposure to real-world projects, leadership roles, and technical event management.
+            </p>
+            <div class="about-stats-v2">
+                <div class="stat-card">
+                    <h3 class="stat-count"><span class="stat-number" data-target="100">0</span>+</h3>
+                    <p class="stat-desc">LeetCode Problems</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-count"><span class="stat-number" data-target="5">0</span>+</h3>
+                    <p class="stat-desc">Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-count"><span class="stat-number" data-target="7.7">0</span></h3>
+                    <p class="stat-desc">CGPA</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-count"><span class="stat-number" data-target="5">0</span></h3>
+                    <p class="stat-desc">MUN Conferences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">Technical <span class="cyan-text">Skills</span></h2>
+        </div>
+        <div class="skills-tech-grid">
+            <!-- Programming Languages -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">code</span></div>
+                    <h4>Programming Languages</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>Kotlin</span>
+                    <span>Python</span>
+                </div>
+            </div>
+            <!-- Web Technologies -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">language</span></div>
+                    <h4>Web Technologies</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <!-- Mobile Development -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">smartphone</span></div>
+                    <h4>Mobile Development</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>Android SDK</span>
+                    <span>RESTful APIs</span>
+                    <span>UI/UX Design (Figma)</span>
+                </div>
+            </div>
+            <!-- Embedded Systems -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">memory</span></div>
+                    <h4>Embedded Systems</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>ESP32</span>
+                    <span>Arduino</span>
+                    <span>Microcontrollers</span>
+                    <span>Sensor Integration</span>
+                </div>
+            </div>
+            <!-- Tools & Platforms -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">build</span></div>
+                    <h4>Tools & Platforms</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>VS Code</span>
+                    <span>Arduino IDE</span>
+                    <span>Canva</span>
+                    <span>Accord</span>
+                </div>
+            </div>
+            <!-- Core Strengths -->
+            <div class="skill-box reveal">
+                <div class="skill-category-header">
+                    <div class="skill-icon-bg"><span class="material-icons skill-icon">lightbulb</span></div>
+                    <h4>Core Strengths</h4>
+                </div>
+                <div class="skill-tags">
+                    <span>Data Structures</span>
+                    <span>Problem Solving</span>
+                    <span>Debugging</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">Educational <span class="cyan-text">Journey</span></h2>
+        </div>
+
+        <div class="edu-timeline">
+            <!-- Graduation -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="edu-card-v2 reveal">
+                    <div class="edu-icon-bg">
+                        <span class="material-icons">school</span>
+                    </div>
+                    <div class="edu-details">
+                        <div class="edu-header">
+                            <h3>B.Tech - Electronics & Communication Engineering</h3>
+                            <span class="edu-tag desktop-tag">Current</span>
+                        </div>
+                        <p class="edu-inst">KIET Group of Institutions, Ghaziabad</p>
+                        <div class="edu-footer">
+                            <span class="edu-year">2023 - 2027</span>
+                            <span class="edu-score">7.7 CGPA</span>
+                            <span class="edu-tag mobile-tag">Current</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12th -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="edu-card-v2 reveal">
+                    <div class="edu-icon-bg">
+                        <span class="material-icons">workspace_premium</span>
+                    </div>
+                    <div class="edu-details">
+                        <div class="edu-header">
+                            <h3>12th - CBSE (PCM)</h3>
+                        </div>
+                        <p class="edu-inst">CBSE Board</p>
+                        <div class="edu-footer">
+                            <span class="edu-year">2022 - 2023</span>
+                            <span class="edu-score">81.4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10th -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="edu-card-v2 reveal">
+                    <div class="edu-icon-bg">
+                        <span class="material-icons">workspace_premium</span>
+                    </div>
+                    <div class="edu-details">
+                        <div class="edu-header">
+                            <h3>10th - CBSE</h3>
+                        </div>
+                        <p class="edu-inst">CBSE Board</p>
+                        <div class="edu-footer">
+                            <span class="edu-year">2020 - 2021</span>
+                            <span class="edu-score">83.4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Carousel) -->
+    <section class="section project-section-bg" id="projects">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">Featured <span class="cyan-text">Projects</span></h2>
+            <p class="section-subtitle">Showcasing innovative solutions across embedded systems, mobile development, and
+                web applications</p>
+        </div>
+
+        <div class="carousel-wrapper reveal">
+            <button class="carousel-nav prev" id="prevBtn">‹</button>
+            <div class="carousel-container" id="carouselContainer">
+
+                <!-- Project 1: Safety Companion -->
+                <div class="project-slide">
+                    <div class="p-card">
+                        <div class="p-img project-1">
+                            <span class="p-category">IoT</span>
+                        </div>
+                        <div class="p-info">
+                            <h3>Safety Companion</h3>
+                            <p>Real-time safety monitoring solution using advanced sensors and instant alert mechanisms.
+                            </p>
+                            <div class="p-tags">
+                                <span>IoT</span><span>Sensors</span><span>Firebase</span>
+                            </div>
+                            <a href="#" class="view-details" data-project-id="1">
+                                <span class="material-icons">open_in_new</span> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Vidya Connect -->
+                <div class="project-slide">
+                    <div class="p-card">
+                        <div class="p-img project-2">
+                            <span class="p-category">Web Application</span>
+                        </div>
+                        <div class="p-info">
+                            <h3>Vidya Connect</h3>
+                            <p>Digital education platform enabling seamless interaction between students and educators.
+                            </p>
+                            <div class="p-tags">
+                                <span>Web Dev</span><span>UI/UX</span><span>Node.js</span>
+                            </div>
+                            <a href="#" class="view-details" data-project-id="2">
+                                <span class="material-icons">open_in_new</span> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Soil Analyzing Platform -->
+                <div class="project-slide">
+                    <div class="p-card">
+                        <div class="p-img project-3">
+                            <span class="p-category">IoT & Agriculture</span>
+                        </div>
+                        <div class="p-info">
+                            <h3>Soil Analyzing Platform</h3>
+                            <p>Agricultural system analyzing soil parameters to optimize irrigation and crop yield.</p>
+                            <div class="p-tags">
+                                <span>AgriTech</span><span>Arduino</span><span>Python</span>
+                            </div>
+                            <a href="#" class="view-details" data-project-id="3">
+                                <span class="material-icons">open_in_new</span> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Seed Sowing Rover -->
+                <div class="project-slide">
+                    <div class="p-card">
+                        <div class="p-img project-4">
+                            <span class="p-category">Robotics</span>
+                        </div>
+                        <div class="p-info">
+                            <h3>Seed Sowing Rover</h3>
+                            <p>Autonomous rover designed for precision pathfinding and efficient seed placement.</p>
+                            <div class="p-tags">
+                                <span>Robotics</span><span>Embedded C</span><span>GPS</span>
+                            </div>
+                            <a href="#" class="view-details" data-project-id="4">
+                                <span class="material-icons">open_in_new</span> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Food Delivery App -->
+                <div class="project-slide">
+                    <div class="p-card">
+                        <div class="p-img project-5">
+                            <span class="p-category">Mobile Dev</span>
+                        </div>
+                        <div class="p-info">
+                            <h3>Food Delivery App</h3>
+                            <p>Full-featured Kotlin Android app with real-time tracking and secure authentication.</p>
+                            <div class="p-tags">
+                                <span>Kotlin</span><span>Android SDK</span><span>Firebase</span>
+                            </div>
+                            <a href="#" class="view-details" data-project-id="5">
+                                <span class="material-icons">open_in_new</span> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-nav next" id="nextBtn">›</button>
+            <div class="carousel-indicators" id="carouselIndicators"></div>
+        </div>
+    </section>
+
+    <!-- Experience & Leadership Section -->
+    <section class="section" id="experience">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">Experience & <span class="cyan-text">Leadership</span></h2>
+        </div>
+        <div class="leadership-grid">
+            <!-- Fundraising Intern -->
+            <div class="leadership-card reveal">
+                <div class="l-card-header">
+                    <div class="l-icon-bg">
+                        <span class="material-icons">business_center</span>
+                    </div>
+                    <div class="l-title-group">
+                        <h4>Fundraising Intern</h4>
+                        <h5>Muskurahat Foundation</h5>
+                    </div>
+                </div>
+                <p>Executed donor outreach campaigns and supported fundraising initiatives. Contributed to social impact
+                    programs through organized campaign execution.</p>
+            </div>
+
+            <!-- Team Captain -->
+            <div class="leadership-card reveal">
+                <div class="l-card-header">
+                    <div class="l-icon-bg">
+                        <span class="material-icons">groups</span>
+                    </div>
+                    <div class="l-title-group">
+                        <h4>Team Captain - KIET Kabaddi Girls Team</h4>
+                        <h5>KIET Group of Institutions</h5>
+                    </div>
+                </div>
+                <p>Led team strategy and performance as Vice-Captain. Fostered teamwork, discipline, and motivation to
+                    achieve competitive excellence. Zonal Player achievement.</p>
+            </div>
+
+            <!-- Event Coordinator -->
+            <div class="leadership-card reveal">
+                <div class="l-card-header">
+                    <div class="l-icon-bg">
+                        <span class="material-icons">event</span>
+                    </div>
+                    <div class="l-title-group">
+                        <h4>Event Coordinator - Prastuti Fest 2025</h4>
+                        <h5>KIET Group of Institutions</h5>
+                    </div>
+                </div>
+                <p>Coordinated college-level cultural and technical events. Worked with cross-functional teams to ensure
+                    smooth execution.</p>
+            </div>
+
+            <!-- Core Member -->
+            <div class="leadership-card reveal">
+                <div class="l-card-header">
+                    <div class="l-icon-bg">
+                        <span class="material-icons">record_voice_over</span>
+                    </div>
+                    <div class="l-title-group">
+                        <h4>Core Member - TEDx KIET</h4>
+                        <h5>TEDx KIET</h5>
+                    </div>
+                </div>
+                <p>Contributed to event planning, speaker coordination, and audience engagement.</p>
+            </div>
+
+            <!-- Active MUN Participant -->
+            <div class="leadership-card reveal">
+                <div class="l-card-header">
+                    <div class="l-icon-bg">
+                        <span class="material-icons">public</span>
+                    </div>
+                    <div class="l-title-group">
+                        <h4>Active MUN Participant</h4>
+                        <h5>Model United Nations</h5>
+                    </div>
+                </div>
+                <p>Participated in 5 Model United Nations conferences, gaining exposure to global policy, negotiation,
+                    and public speaking.</p>
+            </div>
+        </div>
+
+        <!-- Problem Solving Excellence (Featured Box) -->
+        <div class="featured-leadership-box reveal">
+            <div class="f-icon-bg">
+                <span class="material-icons">military_tech</span>
+            </div>
+            <h4>Problem Solving Excellence</h4>
+            <p>Solved <span class="cyan-text fw-bold">100+ problems</span> on LeetCode, strengthening data structures
+                and
+                algorithmic thinking.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-header reveal">
+            <h2 class="section-title underline-cyan">Get In <span class="cyan-text">Touch</span></h2>
+            <p class="section-subtitle">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <!-- Email Box -->
+                <div class="info-box">
+                    <div class="info-icon">
+                        <span class="material-icons">email</span>
+                    </div>
+                    <div class="info-details">
+                        <label>Email</label>
+                        <a href="mailto:yaduvanshikhushi280@gmail.com"
+                            class="info-link">yaduvanshikhushi280@gmail.com</a>
+                    </div>
+                </div>
+                <!-- Phone Box -->
+                <div class="info-box">
+                    <div class="info-icon">
+                        <span class="material-icons">phone</span>
+                    </div>
+                    <div class="info-details">
+                        <label>Phone</label>
+                        <a href="tel:9506927343" class="info-link">9506927343</a>
+                    </div>
+                </div>
+                <!-- Opportunity Box -->
+                <div class="opportunity-box">
+                    <p>Open to opportunities in Android Development, Embedded Systems, and innovative tech projects.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form-card reveal">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6"
+                            placeholder="Tell me about your project or inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn-v2">
+                        <span class="material-icons">send</span> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <!-- Branding Column -->
+                <div class="footer-col branding">
+                    <h2 class="footer-logo">Khushi<span class="cyan-text">.</span></h2>
+                    <p class="footer-title">Electronics & Communication Engineering Student</p>
+                    <p class="footer-desc">Building innovative solutions with passion and precision.</p>
+                </div>
+
+                <!-- Links Column -->
+                <div class="footer-col links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <div class="links-sub-grid">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Connect Column -->
+                <div class="footer-col connect">
+                    <h3 class="footer-heading">Connect</h3>
+                    <a href="mailto:yaduvanshikhushi280@gmail.com" class="footer-email">
+                        <span class="material-icons">email</span> yaduvanshikhushi280@gmail.com
+                    </a>
+                    <div class="social-links-v2">
+                        <a href="https://github.com/khushiy337" target="_blank" class="social-box" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/khushi-yadav-7a44313a6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" class="social-box" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/khushiy3108/" target="_blank" class="social-box"
+                            title="LeetCode">
+                            <i class="fas fa-terminal"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Khushi Yadav. Made with <span class="cyan-text">💙</span> and passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content reveal">
+            <button class="modal-close-top" id="modalCloseTop">
+                <span class="material-icons">close</span>
+            </button>
+
+            <div class="modal-header">
+                <h2 id="modalTitle">Project Title</h2>
+                <span class="modal-category" id="modalCategory">Category</span>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img src="" alt="Project Image" id="modalImage">
+                </div>
+
+                <div class="modal-text">
+                    <p id="modalDescription">Detailed description goes here...</p>
+
+                    <div class="modal-section">
+                        <h3>Technologies Used</h3>
+                        <div class="modal-tags" id="modalTags">
+                            <!-- Tags injected via JS -->
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3>Project Highlights</h3>
+                        <ul class="modal-highlights" id="modalHighlights">
+                            <!-- Highlights injected via JS -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-primary w-100" id="modalCloseBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
